@@ -1,54 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="Circulo_FJRS" project="geometria" file="/geometria/src/Circulo_FJRS.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="823" y="151"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="2" language="java" name="FiguraGeometrica_FJRS" project="geometria" 
-    file="/geometria/src/FiguraGeometrica_FJRS.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="515" y="228"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="3" language="java" name="Rectangulo_FJRS" project="geometria" file="/geometria/src/Rectangulo_FJRS.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="153" y="167"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="Triangulo_FJRS" project="geometria" file="/geometria/src/Triangulo_FJRS.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="312" y="480"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <generalization id="5">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <generalization id="6">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <generalization id="7">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
+  associations="true" dependencies="false" nesting-relationships="true">  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
